@@ -25,6 +25,10 @@ var testCases = []TestCaseType{
 		expectedResult: ``,
 	},
 	{
+		testData:       `ab04sd`,
+		expectedResult: ``,
+	},
+	{
 		testData:       `abcd`,
 		expectedResult: `abcd`,
 	},
