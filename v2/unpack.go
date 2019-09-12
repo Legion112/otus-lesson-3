@@ -8,8 +8,9 @@ import (
 
 const escape = '\\'
 
-// Unpack function for unpacked strings (very fast ~ 150 ns)
-// Function used strings.Builder and write only rune
+// Unpack function for unpacked strings (very fast ~ 150 ns).
+//
+// Function used strings.Builder and write only rune.
 func Unpack(s string) (string, error) {
 	var out strings.Builder
 	var c rune
