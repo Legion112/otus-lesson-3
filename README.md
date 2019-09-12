@@ -20,7 +20,7 @@
 
 ### Installation
 
-    go get github.com/mirecl/otus-lesson-2
+    go get github.com/mirecl/otus-lesson-3
 
 ## Examples
 ```go
@@ -36,19 +36,4 @@ func main() {
 	fmt.Println(unpack.Parser("a4bc2d5e"))
 	fmt.Println(unpack.Parser2("a4bc2d5e"))
 }
-```
-
-## Benchmark
-
-Распаковка (CPU i7-6800):
-```Go
-`a4b\4\5c0d5e\52\\3qwe\4\5`
-```
-Результат:
-```bash
-goos: windows
-goarch: amd64
-pkg: github.com/mirecl/otus-lesson-2
-BenchmarkParser-12     	 1000000	      1673 ns/op	    1200 B/op	      32 allocs/op
-BenchmarkParser2-12    	 1000000	      1263 ns/op	    1456 B/op	       8 allocs/op
 ```
